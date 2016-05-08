@@ -7,14 +7,12 @@
 //
 
 #import "JKFriendTrendViewController.h"
-#import "JKLoginViewController.m"
+#import "JKLoginViewController.h"
 
 @implementation JKFriendTrendViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.view.backgroundColor = [UIColor orangeColor];
     
     [self setupNavBar]; // 设置导航条内容
 
@@ -37,9 +35,9 @@
 
 - (IBAction)LoginClick {
     
-    JKLoginViewController *loginVc = [[JKLoginViewController alloc] init];
+    JKLoginViewController *jk = [[JKLoginViewController alloc] init];
     
-    [self presentViewController:loginVc animated:YES completion:nil];
+    [self presentViewController:jk animated:YES completion:nil];
 }
 
 - (IBAction)RegisterClick {

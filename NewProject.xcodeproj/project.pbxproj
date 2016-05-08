@@ -41,15 +41,15 @@
 		C4BBA3E61CDF1C410012AE66 /* JKSubTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3E41CDF1C410012AE66 /* JKSubTagCell.xib */; };
 		C4BBA3E91CDF1C490012AE66 /* JKSubTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3E81CDF1C490012AE66 /* JKSubTagItem.m */; };
 		C4BBA3EC1CDF1C550012AE66 /* JKSubTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3EB1CDF1C550012AE66 /* JKSubTagViewController.m */; };
-		C4BBA3F11CDF25190012AE66 /* JKFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3EF1CDF25190012AE66 /* JKFriendTrendsViewController.xib */; };
 		C4BBA3F51CDF25640012AE66 /* JKLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3F31CDF25640012AE66 /* JKLoginRegisterView.m */; };
 		C4BBA3F61CDF25640012AE66 /* JKLoginRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3F41CDF25640012AE66 /* JKLoginRegisterView.xib */; };
-		C4BBA3FA1CDF25790012AE66 /* JKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3F81CDF25790012AE66 /* JKLoginViewController.m */; };
-		C4BBA3FB1CDF25790012AE66 /* JKLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3F91CDF25790012AE66 /* JKLoginViewController.xib */; };
 		C4BBA3FF1CDF262E0012AE66 /* JKFastLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3FD1CDF262E0012AE66 /* JKFastLogin.m */; };
 		C4BBA4001CDF262E0012AE66 /* JKFastLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3FE1CDF262E0012AE66 /* JKFastLogin.xib */; };
 		C4BBA4031CDF26390012AE66 /* JKFastLoginBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA4021CDF26390012AE66 /* JKFastLoginBtn.m */; };
 		C4BBA4061CDF27690012AE66 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA4051CDF27690012AE66 /* UITextField+Placeholder.m */; };
+		C4BBA40D1CDF2B9D0012AE66 /* JKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA40B1CDF2B9D0012AE66 /* JKLoginViewController.m */; };
+		C4BBA40E1CDF2B9D0012AE66 /* JKLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA40C1CDF2B9D0012AE66 /* JKLoginViewController.xib */; };
+		C4FF3A011CDF32A300BCDF0E /* JKFriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FF3A001CDF32A300BCDF0E /* JKFriendTrendViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,13 +131,9 @@
 		C4BBA3E81CDF1C490012AE66 /* JKSubTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSubTagItem.m; sourceTree = "<group>"; };
 		C4BBA3EA1CDF1C550012AE66 /* JKSubTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSubTagViewController.h; sourceTree = "<group>"; };
 		C4BBA3EB1CDF1C550012AE66 /* JKSubTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSubTagViewController.m; sourceTree = "<group>"; };
-		C4BBA3EF1CDF25190012AE66 /* JKFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		C4BBA3F21CDF25640012AE66 /* JKLoginRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKLoginRegisterView.h; path = ../Controller/JKLoginRegisterView.h; sourceTree = "<group>"; };
 		C4BBA3F31CDF25640012AE66 /* JKLoginRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKLoginRegisterView.m; path = ../Controller/JKLoginRegisterView.m; sourceTree = "<group>"; };
 		C4BBA3F41CDF25640012AE66 /* JKLoginRegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JKLoginRegisterView.xib; path = ../Controller/JKLoginRegisterView.xib; sourceTree = "<group>"; };
-		C4BBA3F71CDF25790012AE66 /* JKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKLoginViewController.h; sourceTree = "<group>"; };
-		C4BBA3F81CDF25790012AE66 /* JKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLoginViewController.m; sourceTree = "<group>"; };
-		C4BBA3F91CDF25790012AE66 /* JKLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKLoginViewController.xib; sourceTree = "<group>"; };
 		C4BBA3FC1CDF262E0012AE66 /* JKFastLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKFastLogin.h; sourceTree = "<group>"; };
 		C4BBA3FD1CDF262E0012AE66 /* JKFastLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKFastLogin.m; sourceTree = "<group>"; };
 		C4BBA3FE1CDF262E0012AE66 /* JKFastLogin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKFastLogin.xib; sourceTree = "<group>"; };
@@ -145,6 +141,10 @@
 		C4BBA4021CDF26390012AE66 /* JKFastLoginBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKFastLoginBtn.m; path = ../Controller/JKFastLoginBtn.m; sourceTree = "<group>"; };
 		C4BBA4041CDF27690012AE66 /* UITextField+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholder.h"; sourceTree = "<group>"; };
 		C4BBA4051CDF27690012AE66 /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
+		C4BBA40A1CDF2B9D0012AE66 /* JKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKLoginViewController.h; sourceTree = "<group>"; };
+		C4BBA40B1CDF2B9D0012AE66 /* JKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLoginViewController.m; sourceTree = "<group>"; };
+		C4BBA40C1CDF2B9D0012AE66 /* JKLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKLoginViewController.xib; sourceTree = "<group>"; };
+		C4FF3A001CDF32A300BCDF0E /* JKFriendTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKFriendTrendViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,10 +317,10 @@
 			children = (
 				C4BBA3B01CDEF7040012AE66 /* JKFriendTrendViewController.h */,
 				C4BBA3B11CDEF7040012AE66 /* JKFriendTrendViewController.m */,
-				C4BBA3EF1CDF25190012AE66 /* JKFriendTrendsViewController.xib */,
-				C4BBA3F71CDF25790012AE66 /* JKLoginViewController.h */,
-				C4BBA3F81CDF25790012AE66 /* JKLoginViewController.m */,
-				C4BBA3F91CDF25790012AE66 /* JKLoginViewController.xib */,
+				C4FF3A001CDF32A300BCDF0E /* JKFriendTrendViewController.xib */,
+				C4BBA40A1CDF2B9D0012AE66 /* JKLoginViewController.h */,
+				C4BBA40B1CDF2B9D0012AE66 /* JKLoginViewController.m */,
+				C4BBA40C1CDF2B9D0012AE66 /* JKLoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -659,13 +659,13 @@
 				C4BBA3DA1CDF13B30012AE66 /* LaunchImage@2x.png in Resources */,
 				C4BBA3E61CDF1C410012AE66 /* JKSubTagCell.xib in Resources */,
 				C4BBA3D51CDF13B30012AE66 /* LaunchImage-700-568h@2x.png in Resources */,
+				C4BBA40E1CDF2B9D0012AE66 /* JKLoginViewController.xib in Resources */,
 				C4BBA3D71CDF13B30012AE66 /* LaunchImage-800-667h@2x.png in Resources */,
-				C4BBA3FB1CDF25790012AE66 /* JKLoginViewController.xib in Resources */,
+				C4FF3A011CDF32A300BCDF0E /* JKFriendTrendViewController.xib in Resources */,
 				C4BBA3D41CDF13B30012AE66 /* LaunchImage-568h@2x.png in Resources */,
 				C4BBA3D91CDF13B30012AE66 /* LaunchImage.png in Resources */,
 				C4BBA3611CDEE4B10012AE66 /* Assets.xcassets in Resources */,
 				C4BBA4001CDF262E0012AE66 /* JKFastLogin.xib in Resources */,
-				C4BBA3F11CDF25190012AE66 /* JKFriendTrendsViewController.xib in Resources */,
 				C4BBA3D61CDF13B30012AE66 /* LaunchImage-700@2x.png in Resources */,
 				C4BBA35F1CDEE4B10012AE66 /* Main.storyboard in Resources */,
 			);
@@ -747,6 +747,7 @@
 				C4BBA3C31CDF0BB50012AE66 /* UIBarButtonItem+Item.m in Sources */,
 				C4BBA3FF1CDF262E0012AE66 /* JKFastLogin.m in Sources */,
 				C4BBA3B81CDEF8750012AE66 /* UIImage+Render.m in Sources */,
+				C4BBA40D1CDF2B9D0012AE66 /* JKLoginViewController.m in Sources */,
 				C4BBA3DE1CDF159B0012AE66 /* JKADItem.m in Sources */,
 				C4BBA3BC1CDF06AF0012AE66 /* JKTabBar.m in Sources */,
 				C4BBA4061CDF27690012AE66 /* UITextField+Placeholder.m in Sources */,
@@ -756,7 +757,6 @@
 				C4BBA3E51CDF1C410012AE66 /* JKSubTagCell.m in Sources */,
 				C4BBA3CA1CDF13650012AE66 /* JKADViewController.m in Sources */,
 				C4BBA3A91CDEF6BF0012AE66 /* JKEssenceViewController.m in Sources */,
-				C4BBA3FA1CDF25790012AE66 /* JKLoginViewController.m in Sources */,
 				C4BBA3B21CDEF7040012AE66 /* JKFriendTrendViewController.m in Sources */,
 				C4BBA3AF1CDEF6DD0012AE66 /* JKPublishViewController.m in Sources */,
 				C4BBA3F51CDF25640012AE66 /* JKLoginRegisterView.m in Sources */,

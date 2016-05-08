@@ -34,7 +34,7 @@
     if (_isRegister) {
         [self RegisterClick:_registerBtn];
     }
-
+    
 }
 
 - (IBAction)RegisterClick:(UIButton *)sender {
@@ -73,12 +73,14 @@
     
     JKFastLogin *fastLoginView = self.BottomView.subviews[0];
     fastLoginView.frame = self.BottomView.bounds;
-
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)awakeFromNib
+{
+    UIImage *image = self.registerBtn.currentBackgroundImage;
+    image = [image stretchableImageWithLeftCapWidth:image.size.width * 0.5 topCapHeight:image.size.height * 0.5];
+    [self.registerBtn setImage:image forState:UIControlStateNormal];
 }
 
 - (IBAction)CancelClick {
@@ -86,13 +88,13 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

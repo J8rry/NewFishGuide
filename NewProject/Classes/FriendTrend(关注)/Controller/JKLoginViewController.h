@@ -1,8 +1,8 @@
 //
 //  JKLoginViewController.h
-//  BuDeJie
+//  NewProject
 //
-//  Created by Jerry on 16/4/4.
+//  Created by Jerry on 16/5/8.
 //  Copyright © 2016年 Jerry. All rights reserved.
 //
 
@@ -11,5 +11,6 @@
 @interface JKLoginViewController : UIViewController
 
 @property (nonatomic, assign) BOOL isRegister;
+
 
 @end
