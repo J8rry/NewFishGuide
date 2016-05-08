@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JKADViewController">
+            <connections>
+                <outlet property="ADView" destination="6Dm-rS-kwg" id="itS-qv-yWT"/>
+                <outlet property="JumpBtn" destination="RJ7-Se-cgb" id="cfC-aU-H2O"/>
+                <outlet property="LauchImageView" destination="UA4-Ko-zXJ" id="D0p-zL-Hm8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UA4-Ko-zXJ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Dm-rS-kwg" userLabel="ADView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJ7-Se-cgb">
+                    <rect key="frame" x="301" y="10" width="64" height="30"/>
+                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="0Pk-sb-Ret"/>
+                        <constraint firstAttribute="width" constant="64" id="En6-ky-dG9"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="IKJ-Ue-DSU"/>
+                        <constraint firstAttribute="height" constant="30" id="d1o-2x-nmg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="跳过 (3)">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="jumpClick:" destination="-1" eventType="touchUpInside" id="ad5-hG-MuQ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="UA4-Ko-zXJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3PY-WU-Auv"/>
+                <constraint firstAttribute="trailing" secondItem="UA4-Ko-zXJ" secondAttribute="trailing" id="7yl-46-SfW"/>
+                <constraint firstItem="6Dm-rS-kwg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="FPf-Yd-v1r"/>
+                <constraint firstAttribute="trailing" secondItem="RJ7-Se-cgb" secondAttribute="trailing" constant="10" id="NXC-4H-nDe"/>
+                <constraint firstAttribute="bottom" secondItem="6Dm-rS-kwg" secondAttribute="bottom" id="aIQ-k7-XwT"/>
+                <constraint firstItem="UA4-Ko-zXJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aNj-jq-Z2i"/>
+                <constraint firstItem="RJ7-Se-cgb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="f5G-yW-f3J"/>
+                <constraint firstAttribute="bottom" secondItem="UA4-Ko-zXJ" secondAttribute="bottom" id="hEz-pD-7Lo"/>
+                <constraint firstItem="6Dm-rS-kwg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="joA-wP-vXN"/>
+                <constraint firstAttribute="trailing" secondItem="6Dm-rS-kwg" secondAttribute="trailing" id="o9G-sf-caG"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="304.5" y="348.5"/>
+        </view>
+    </objects>
+</document>

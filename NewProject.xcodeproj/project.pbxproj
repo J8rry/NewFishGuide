@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2EC53CF7DBBC0BDC588924F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E34D5A43772FDEFE3265E2B /* libPods.a */; };
 		C4BBA3561CDEE4B10012AE66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3551CDEE4B10012AE66 /* main.m */; };
 		C4BBA3591CDEE4B10012AE66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3581CDEE4B10012AE66 /* AppDelegate.m */; };
 		C4BBA35F1CDEE4B10012AE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA35D1CDEE4B10012AE66 /* Main.storyboard */; };
@@ -25,6 +26,21 @@
 		C4BBA3BF1CDF06DB0012AE66 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3BE1CDF06DB0012AE66 /* UIView+Frame.m */; };
 		C4BBA3C31CDF0BB50012AE66 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3C21CDF0BB50012AE66 /* UIBarButtonItem+Item.m */; };
 		C4BBA3C61CDF0F6D0012AE66 /* JKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3C51CDF0F6D0012AE66 /* JKNavigationController.m */; };
+		C4BBA3CA1CDF13650012AE66 /* JKADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3C81CDF13650012AE66 /* JKADViewController.m */; };
+		C4BBA3CB1CDF13650012AE66 /* JKADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3C91CDF13650012AE66 /* JKADViewController.xib */; };
+		C4BBA3D41CDF13B30012AE66 /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3CD1CDF13B30012AE66 /* LaunchImage-568h@2x.png */; };
+		C4BBA3D51CDF13B30012AE66 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3CE1CDF13B30012AE66 /* LaunchImage-700-568h@2x.png */; };
+		C4BBA3D61CDF13B30012AE66 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3CF1CDF13B30012AE66 /* LaunchImage-700@2x.png */; };
+		C4BBA3D71CDF13B30012AE66 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3D01CDF13B30012AE66 /* LaunchImage-800-667h@2x.png */; };
+		C4BBA3D81CDF13B30012AE66 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3D11CDF13B30012AE66 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		C4BBA3D91CDF13B30012AE66 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3D21CDF13B30012AE66 /* LaunchImage.png */; };
+		C4BBA3DA1CDF13B30012AE66 /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3D31CDF13B30012AE66 /* LaunchImage@2x.png */; };
+		C4BBA3DE1CDF159B0012AE66 /* JKADItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3DD1CDF159B0012AE66 /* JKADItem.m */; };
+		C4BBA3E11CDF16F20012AE66 /* JKConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3E01CDF16F20012AE66 /* JKConstant.m */; };
+		C4BBA3E51CDF1C410012AE66 /* JKSubTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3E31CDF1C410012AE66 /* JKSubTagCell.m */; };
+		C4BBA3E61CDF1C410012AE66 /* JKSubTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA3E41CDF1C410012AE66 /* JKSubTagCell.xib */; };
+		C4BBA3E91CDF1C490012AE66 /* JKSubTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3E81CDF1C490012AE66 /* JKSubTagItem.m */; };
+		C4BBA3EC1CDF1C550012AE66 /* JKSubTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3EB1CDF1C550012AE66 /* JKSubTagViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12A9737760E7BFB798FE3003 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3E34D5A43772FDEFE3265E2B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5472DC87B5F5B5107CBD4380 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C4BBA3511CDEE4B10012AE66 /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BBA3551CDEE4B10012AE66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4BBA3571CDEE4B10012AE66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,6 +101,27 @@
 		C4BBA3C21CDF0BB50012AE66 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
 		C4BBA3C41CDF0F6D0012AE66 /* JKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNavigationController.h; sourceTree = "<group>"; };
 		C4BBA3C51CDF0F6D0012AE66 /* JKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKNavigationController.m; sourceTree = "<group>"; };
+		C4BBA3C71CDF13650012AE66 /* JKADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKADViewController.h; sourceTree = "<group>"; };
+		C4BBA3C81CDF13650012AE66 /* JKADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKADViewController.m; sourceTree = "<group>"; };
+		C4BBA3C91CDF13650012AE66 /* JKADViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKADViewController.xib; sourceTree = "<group>"; };
+		C4BBA3CD1CDF13B30012AE66 /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		C4BBA3CE1CDF13B30012AE66 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		C4BBA3CF1CDF13B30012AE66 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		C4BBA3D01CDF13B30012AE66 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		C4BBA3D11CDF13B30012AE66 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		C4BBA3D21CDF13B30012AE66 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		C4BBA3D31CDF13B30012AE66 /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
+		C4BBA3DC1CDF159B0012AE66 /* JKADItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKADItem.h; sourceTree = "<group>"; };
+		C4BBA3DD1CDF159B0012AE66 /* JKADItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKADItem.m; sourceTree = "<group>"; };
+		C4BBA3DF1CDF16F20012AE66 /* JKConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKConstant.h; sourceTree = "<group>"; };
+		C4BBA3E01CDF16F20012AE66 /* JKConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKConstant.m; sourceTree = "<group>"; };
+		C4BBA3E21CDF1C410012AE66 /* JKSubTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSubTagCell.h; sourceTree = "<group>"; };
+		C4BBA3E31CDF1C410012AE66 /* JKSubTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSubTagCell.m; sourceTree = "<group>"; };
+		C4BBA3E41CDF1C410012AE66 /* JKSubTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKSubTagCell.xib; sourceTree = "<group>"; };
+		C4BBA3E71CDF1C490012AE66 /* JKSubTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSubTagItem.h; sourceTree = "<group>"; };
+		C4BBA3E81CDF1C490012AE66 /* JKSubTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSubTagItem.m; sourceTree = "<group>"; };
+		C4BBA3EA1CDF1C550012AE66 /* JKSubTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSubTagViewController.h; sourceTree = "<group>"; };
+		C4BBA3EB1CDF1C550012AE66 /* JKSubTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSubTagViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2EC53CF7DBBC0BDC588924F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +150,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9ACAAAA83FB8C86AF648BE16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E34D5A43772FDEFE3265E2B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C4BBA3481CDEE4B10012AE66 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +165,8 @@
 				C4BBA36D1CDEE4B20012AE66 /* NewProjectTests */,
 				C4BBA3781CDEE4B20012AE66 /* NewProjectUITests */,
 				C4BBA3521CDEE4B10012AE66 /* Products */,
+				FB84AF8C3693BF1E3C925D47 /* Pods */,
+				9ACAAAA83FB8C86AF648BE16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +185,7 @@
 			children = (
 				C4BBA3881CDEE7620012AE66 /* Classes */,
 				C4BBA3601CDEE4B10012AE66 /* Assets.xcassets */,
+				C4BBA3DB1CDF13BE0012AE66 /* LauchScreen */,
 				C4BBA3541CDEE4B10012AE66 /* Supporting Files */,
 			);
 			path = NewProject;
@@ -182,6 +234,7 @@
 		C4BBA3881CDEE7620012AE66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C4BBA3CC1CDF136A0012AE66 /* AD */,
 				C4BBA3911CDEE7620012AE66 /* Main */,
 				C4BBA3891CDEE7620012AE66 /* Essence(精华) */,
 				C4BBA3991CDEE7620012AE66 /* New(新帖) */,
@@ -344,6 +397,8 @@
 			children = (
 				C4BBA3AA1CDEF6CD0012AE66 /* JKNewViewContoller.h */,
 				C4BBA3AB1CDEF6CD0012AE66 /* JKNewViewContoller.m */,
+				C4BBA3EA1CDF1C550012AE66 /* JKSubTagViewController.h */,
+				C4BBA3EB1CDF1C550012AE66 /* JKSubTagViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -351,6 +406,8 @@
 		C4BBA39B1CDEE7620012AE66 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C4BBA3E71CDF1C490012AE66 /* JKSubTagItem.h */,
+				C4BBA3E81CDF1C490012AE66 /* JKSubTagItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -358,6 +415,9 @@
 		C4BBA39C1CDEE7620012AE66 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C4BBA3E21CDF1C410012AE66 /* JKSubTagCell.h */,
+				C4BBA3E31CDF1C410012AE66 /* JKSubTagCell.m */,
+				C4BBA3E41CDF1C410012AE66 /* JKSubTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -405,8 +465,45 @@
 				C4BBA3BE1CDF06DB0012AE66 /* UIView+Frame.m */,
 				C4BBA3B61CDEF8750012AE66 /* UIImage+Render.h */,
 				C4BBA3B71CDEF8750012AE66 /* UIImage+Render.m */,
+				C4BBA3DF1CDF16F20012AE66 /* JKConstant.h */,
+				C4BBA3E01CDF16F20012AE66 /* JKConstant.m */,
 			);
 			name = Category;
+			sourceTree = "<group>";
+		};
+		C4BBA3CC1CDF136A0012AE66 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				C4BBA3C71CDF13650012AE66 /* JKADViewController.h */,
+				C4BBA3C81CDF13650012AE66 /* JKADViewController.m */,
+				C4BBA3C91CDF13650012AE66 /* JKADViewController.xib */,
+				C4BBA3DC1CDF159B0012AE66 /* JKADItem.h */,
+				C4BBA3DD1CDF159B0012AE66 /* JKADItem.m */,
+			);
+			name = AD;
+			sourceTree = "<group>";
+		};
+		C4BBA3DB1CDF13BE0012AE66 /* LauchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C4BBA3CD1CDF13B30012AE66 /* LaunchImage-568h@2x.png */,
+				C4BBA3CE1CDF13B30012AE66 /* LaunchImage-700-568h@2x.png */,
+				C4BBA3CF1CDF13B30012AE66 /* LaunchImage-700@2x.png */,
+				C4BBA3D01CDF13B30012AE66 /* LaunchImage-800-667h@2x.png */,
+				C4BBA3D11CDF13B30012AE66 /* LaunchImage-800-Portrait-736h@3x.png */,
+				C4BBA3D21CDF13B30012AE66 /* LaunchImage.png */,
+				C4BBA3D31CDF13B30012AE66 /* LaunchImage@2x.png */,
+			);
+			name = LauchScreen;
+			sourceTree = "<group>";
+		};
+		FB84AF8C3693BF1E3C925D47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5472DC87B5F5B5107CBD4380 /* Pods.debug.xcconfig */,
+				12A9737760E7BFB798FE3003 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,9 +513,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4BBA37E1CDEE4B20012AE66 /* Build configuration list for PBXNativeTarget "NewProject" */;
 			buildPhases = (
+				7E9312AA46FAE1F49165BDA1 /* Check Pods Manifest.lock */,
 				C4BBA34D1CDEE4B10012AE66 /* Sources */,
 				C4BBA34E1CDEE4B10012AE66 /* Frameworks */,
 				C4BBA34F1CDEE4B10012AE66 /* Resources */,
+				5AC262FB54B5E228FAD635CD /* Embed Pods Frameworks */,
+				FDC6DA0294B4F0B261785A5B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -515,8 +615,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4BBA3CB1CDF13650012AE66 /* JKADViewController.xib in Resources */,
+				C4BBA3D81CDF13B30012AE66 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				C4BBA3641CDEE4B10012AE66 /* LaunchScreen.storyboard in Resources */,
+				C4BBA3DA1CDF13B30012AE66 /* LaunchImage@2x.png in Resources */,
+				C4BBA3E61CDF1C410012AE66 /* JKSubTagCell.xib in Resources */,
+				C4BBA3D51CDF13B30012AE66 /* LaunchImage-700-568h@2x.png in Resources */,
+				C4BBA3D71CDF13B30012AE66 /* LaunchImage-800-667h@2x.png in Resources */,
+				C4BBA3D41CDF13B30012AE66 /* LaunchImage-568h@2x.png in Resources */,
+				C4BBA3D91CDF13B30012AE66 /* LaunchImage.png in Resources */,
 				C4BBA3611CDEE4B10012AE66 /* Assets.xcassets in Resources */,
+				C4BBA3D61CDF13B30012AE66 /* LaunchImage-700@2x.png in Resources */,
 				C4BBA35F1CDEE4B10012AE66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,17 +646,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AC262FB54B5E228FAD635CD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9312AA46FAE1F49165BDA1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC6DA0294B4F0B261785A5B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4BBA34D1CDEE4B10012AE66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C4BBA3591CDEE4B10012AE66 /* AppDelegate.m in Sources */,
+				C4BBA3EC1CDF1C550012AE66 /* JKSubTagViewController.m in Sources */,
+				C4BBA3E91CDF1C490012AE66 /* JKSubTagItem.m in Sources */,
 				C4BBA3C31CDF0BB50012AE66 /* UIBarButtonItem+Item.m in Sources */,
 				C4BBA3B81CDEF8750012AE66 /* UIImage+Render.m in Sources */,
+				C4BBA3DE1CDF159B0012AE66 /* JKADItem.m in Sources */,
 				C4BBA3BC1CDF06AF0012AE66 /* JKTabBar.m in Sources */,
 				C4BBA3561CDEE4B10012AE66 /* main.m in Sources */,
+				C4BBA3E11CDF16F20012AE66 /* JKConstant.m in Sources */,
 				C4BBA3B51CDEF71E0012AE66 /* JKMeViewContoller.m in Sources */,
+				C4BBA3E51CDF1C410012AE66 /* JKSubTagCell.m in Sources */,
+				C4BBA3CA1CDF13650012AE66 /* JKADViewController.m in Sources */,
 				C4BBA3A91CDEF6BF0012AE66 /* JKEssenceViewController.m in Sources */,
 				C4BBA3B21CDEF7040012AE66 /* JKFriendTrendViewController.m in Sources */,
 				C4BBA3AF1CDEF6DD0012AE66 /* JKPublishViewController.m in Sources */,
@@ -691,6 +854,7 @@
 		};
 		C4BBA37F1CDEE4B20012AE66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5472DC87B5F5B5107CBD4380 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -706,6 +870,7 @@
 		};
 		C4BBA3801CDEE4B20012AE66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A9737760E7BFB798FE3003 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";

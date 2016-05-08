@@ -7,6 +7,7 @@
 //
 
 #import "JKNewViewContoller.h"
+#import "JKSubTagViewController.h"
 
 @implementation JKNewViewContoller
 
@@ -30,7 +31,8 @@
 
 - (void)subTag
 {
-    JKLog(@"subTag")
+    JKSubTagViewController *subVC = [[JKSubTagViewController alloc] init];
+    [self.navigationController pushViewController:subVC animated:YES];
 }
 
 @end

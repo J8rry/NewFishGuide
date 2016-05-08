@@ -17,4 +17,25 @@
     return  [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
 
+// 返回一个带圆角矩形的图片
+- (UIImage *)getRoundedRectImage
+{
+    UIGraphicsBeginImageContextWithOptions(self.size, NO, 0);
+    
+    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(0, 0, self.size.width, self.size.height) cornerRadius:self.size.width * 0.1];
+    
+    // 添加裁剪
+    [path addClip];
+    
+    [self drawAtPoint:CGPointZero];
+    
+    UIImage *image = [[UIImage alloc] init];
+    
+    image = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
+
 @end
