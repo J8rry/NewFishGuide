@@ -8,13 +8,13 @@
 
 #import "JKTabBarController.h"
 #import "JKTabBar.h"
+#import "JKNavigationController.h"
 
 #import "JKEssenceViewController.h"
 #import "JKNewViewContoller.h"
 #import "JKPublishViewController.h"
 #import "JKFriendTrendViewController.h"
-#import "JKMeViewContoller.h"
-
+#import "JKMeViewController.h"
 #import "UIImage+Render.h"
 
 @interface JKTabBarController()
@@ -63,22 +63,23 @@
 {
     // 精华
     JKEssenceViewController *essenVC = [[JKEssenceViewController alloc] init];
-    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:essenVC];
+    JKNavigationController *nav1 = [[JKNavigationController alloc] initWithRootViewController:essenVC];
     [self addChildViewController:nav1];
     
     // 新帖
     JKNewViewContoller *newVC = [[JKNewViewContoller alloc] init];
-    UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:newVC];
+    JKNavigationController *nav2 = [[JKNavigationController alloc] initWithRootViewController:newVC];
     [self addChildViewController:nav2];
     
     // 关注
     JKFriendTrendViewController *friendVC = [[JKFriendTrendViewController alloc] init];
-    UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:friendVC];
+    JKNavigationController *nav3 = [[JKNavigationController alloc] initWithRootViewController:friendVC];
     [self addChildViewController:nav3];
     
     // 我
-    JKMeViewContoller *meVC = [[JKMeViewContoller alloc] init];
-    UINavigationController *nav4 = [[UINavigationController alloc] initWithRootViewController:meVC];
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"JKMeViewController" bundle:nil];
+    JKMeViewController *meVC = [storyBoard instantiateInitialViewController];
+    JKNavigationController *nav4 = [[JKNavigationController alloc] initWithRootViewController:meVC];
     [self addChildViewController:nav4];
     
 }

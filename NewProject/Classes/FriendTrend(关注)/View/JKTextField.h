@@ -1,5 +1,5 @@
 //
-//  JKMeViewContoller.h
+//  JKTextField.h
 //  NewProject
 //
 //  Created by Jerry on 16/5/8.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JKMeViewContoller : UITableViewController
+@interface JKTextField : UITextField
 
 @end

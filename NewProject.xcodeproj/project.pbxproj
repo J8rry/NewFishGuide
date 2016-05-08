@@ -20,7 +20,6 @@
 		C4BBA3AC1CDEF6CD0012AE66 /* JKNewViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3AB1CDEF6CD0012AE66 /* JKNewViewContoller.m */; };
 		C4BBA3AF1CDEF6DD0012AE66 /* JKPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3AE1CDEF6DD0012AE66 /* JKPublishViewController.m */; };
 		C4BBA3B21CDEF7040012AE66 /* JKFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3B11CDEF7040012AE66 /* JKFriendTrendViewController.m */; };
-		C4BBA3B51CDEF71E0012AE66 /* JKMeViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3B41CDEF71E0012AE66 /* JKMeViewContoller.m */; };
 		C4BBA3B81CDEF8750012AE66 /* UIImage+Render.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3B71CDEF8750012AE66 /* UIImage+Render.m */; };
 		C4BBA3BC1CDF06AF0012AE66 /* JKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3BA1CDF06AF0012AE66 /* JKTabBar.m */; };
 		C4BBA3BF1CDF06DB0012AE66 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3BE1CDF06DB0012AE66 /* UIView+Frame.m */; };
@@ -50,6 +49,15 @@
 		C4BBA40D1CDF2B9D0012AE66 /* JKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA40B1CDF2B9D0012AE66 /* JKLoginViewController.m */; };
 		C4BBA40E1CDF2B9D0012AE66 /* JKLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA40C1CDF2B9D0012AE66 /* JKLoginViewController.xib */; };
 		C4FF3A011CDF32A300BCDF0E /* JKFriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FF3A001CDF32A300BCDF0E /* JKFriendTrendViewController.xib */; };
+		C4FF3A041CDF436E00BCDF0E /* JKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF3A031CDF436E00BCDF0E /* JKTextField.m */; };
+		C4FF3A0C1CDF486B00BCDF0E /* JKSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF3A0A1CDF486B00BCDF0E /* JKSquareCell.m */; };
+		C4FF3A0D1CDF486B00BCDF0E /* JKSquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FF3A0B1CDF486B00BCDF0E /* JKSquareCell.xib */; };
+		C4FF3A101CDF487B00BCDF0E /* JKSquareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF3A0F1CDF487B00BCDF0E /* JKSquareItem.m */; };
+		C4FF3A141CDF48C800BCDF0E /* JKMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF3A121CDF48C800BCDF0E /* JKMeViewController.m */; };
+		C4FF3A151CDF48C800BCDF0E /* JKMeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4FF3A131CDF48C800BCDF0E /* JKMeViewController.storyboard */; };
+		C4FF3A191CDF48E600BCDF0E /* JKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF3A171CDF48E600BCDF0E /* JKWebViewController.m */; };
+		C4FF3A1A1CDF48E600BCDF0E /* JKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FF3A181CDF48E600BCDF0E /* JKWebViewController.xib */; };
+		C4FF3A1D1CDF4EBC00BCDF0E /* JKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF3A1C1CDF4EBC00BCDF0E /* JKSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,8 +105,6 @@
 		C4BBA3AE1CDEF6DD0012AE66 /* JKPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPublishViewController.m; sourceTree = "<group>"; };
 		C4BBA3B01CDEF7040012AE66 /* JKFriendTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKFriendTrendViewController.h; sourceTree = "<group>"; };
 		C4BBA3B11CDEF7040012AE66 /* JKFriendTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKFriendTrendViewController.m; sourceTree = "<group>"; };
-		C4BBA3B31CDEF71E0012AE66 /* JKMeViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKMeViewContoller.h; sourceTree = "<group>"; };
-		C4BBA3B41CDEF71E0012AE66 /* JKMeViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKMeViewContoller.m; sourceTree = "<group>"; };
 		C4BBA3B61CDEF8750012AE66 /* UIImage+Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Render.h"; sourceTree = "<group>"; };
 		C4BBA3B71CDEF8750012AE66 /* UIImage+Render.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Render.m"; sourceTree = "<group>"; };
 		C4BBA3BA1CDF06AF0012AE66 /* JKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTabBar.m; sourceTree = "<group>"; };
@@ -145,6 +151,21 @@
 		C4BBA40B1CDF2B9D0012AE66 /* JKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLoginViewController.m; sourceTree = "<group>"; };
 		C4BBA40C1CDF2B9D0012AE66 /* JKLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKLoginViewController.xib; sourceTree = "<group>"; };
 		C4FF3A001CDF32A300BCDF0E /* JKFriendTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKFriendTrendViewController.xib; sourceTree = "<group>"; };
+		C4FF3A021CDF436E00BCDF0E /* JKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTextField.h; sourceTree = "<group>"; };
+		C4FF3A031CDF436E00BCDF0E /* JKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTextField.m; sourceTree = "<group>"; };
+		C4FF3A091CDF486B00BCDF0E /* JKSquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSquareCell.h; sourceTree = "<group>"; };
+		C4FF3A0A1CDF486B00BCDF0E /* JKSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSquareCell.m; sourceTree = "<group>"; };
+		C4FF3A0B1CDF486B00BCDF0E /* JKSquareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKSquareCell.xib; sourceTree = "<group>"; };
+		C4FF3A0E1CDF487B00BCDF0E /* JKSquareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSquareItem.h; sourceTree = "<group>"; };
+		C4FF3A0F1CDF487B00BCDF0E /* JKSquareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSquareItem.m; sourceTree = "<group>"; };
+		C4FF3A111CDF48C800BCDF0E /* JKMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKMeViewController.h; sourceTree = "<group>"; };
+		C4FF3A121CDF48C800BCDF0E /* JKMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKMeViewController.m; sourceTree = "<group>"; };
+		C4FF3A131CDF48C800BCDF0E /* JKMeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JKMeViewController.storyboard; sourceTree = "<group>"; };
+		C4FF3A161CDF48E600BCDF0E /* JKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKWebViewController.h; sourceTree = "<group>"; };
+		C4FF3A171CDF48E600BCDF0E /* JKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKWebViewController.m; sourceTree = "<group>"; };
+		C4FF3A181CDF48E600BCDF0E /* JKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKWebViewController.xib; sourceTree = "<group>"; };
+		C4FF3A1B1CDF4EBC00BCDF0E /* JKSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSettingViewController.h; sourceTree = "<group>"; };
+		C4FF3A1C1CDF4EBC00BCDF0E /* JKSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +278,7 @@
 		C4BBA3881CDEE7620012AE66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C4FF3A081CDF482800BCDF0E /* Setting(设置) */,
 				C4BBA3CC1CDF136A0012AE66 /* AD */,
 				C4BBA3911CDEE7620012AE66 /* Main */,
 				C4BBA3891CDEE7620012AE66 /* Essence(精华) */,
@@ -343,6 +365,8 @@
 				C4BBA3FE1CDF262E0012AE66 /* JKFastLogin.xib */,
 				C4BBA4011CDF26390012AE66 /* JKFastLoginBtn.h */,
 				C4BBA4021CDF26390012AE66 /* JKFastLoginBtn.m */,
+				C4FF3A021CDF436E00BCDF0E /* JKTextField.h */,
+				C4FF3A031CDF436E00BCDF0E /* JKTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -397,8 +421,12 @@
 		C4BBA3961CDEE7620012AE66 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C4BBA3B31CDEF71E0012AE66 /* JKMeViewContoller.h */,
-				C4BBA3B41CDEF71E0012AE66 /* JKMeViewContoller.m */,
+				C4FF3A111CDF48C800BCDF0E /* JKMeViewController.h */,
+				C4FF3A121CDF48C800BCDF0E /* JKMeViewController.m */,
+				C4FF3A131CDF48C800BCDF0E /* JKMeViewController.storyboard */,
+				C4FF3A161CDF48E600BCDF0E /* JKWebViewController.h */,
+				C4FF3A171CDF48E600BCDF0E /* JKWebViewController.m */,
+				C4FF3A181CDF48E600BCDF0E /* JKWebViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -406,6 +434,8 @@
 		C4BBA3971CDEE7620012AE66 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C4FF3A0E1CDF487B00BCDF0E /* JKSquareItem.h */,
+				C4FF3A0F1CDF487B00BCDF0E /* JKSquareItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -413,6 +443,9 @@
 		C4BBA3981CDEE7620012AE66 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C4FF3A091CDF486B00BCDF0E /* JKSquareCell.h */,
+				C4FF3A0A1CDF486B00BCDF0E /* JKSquareCell.m */,
+				C4FF3A0B1CDF486B00BCDF0E /* JKSquareCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -532,6 +565,15 @@
 				C4BBA3D31CDF13B30012AE66 /* LaunchImage@2x.png */,
 			);
 			name = LauchScreen;
+			sourceTree = "<group>";
+		};
+		C4FF3A081CDF482800BCDF0E /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				C4FF3A1B1CDF4EBC00BCDF0E /* JKSettingViewController.h */,
+				C4FF3A1C1CDF4EBC00BCDF0E /* JKSettingViewController.m */,
+			);
+			name = "Setting(设置)";
 			sourceTree = "<group>";
 		};
 		FB84AF8C3693BF1E3C925D47 /* Pods */ = {
@@ -657,13 +699,16 @@
 				C4BBA3F61CDF25640012AE66 /* JKLoginRegisterView.xib in Resources */,
 				C4BBA3641CDEE4B10012AE66 /* LaunchScreen.storyboard in Resources */,
 				C4BBA3DA1CDF13B30012AE66 /* LaunchImage@2x.png in Resources */,
+				C4FF3A1A1CDF48E600BCDF0E /* JKWebViewController.xib in Resources */,
 				C4BBA3E61CDF1C410012AE66 /* JKSubTagCell.xib in Resources */,
+				C4FF3A151CDF48C800BCDF0E /* JKMeViewController.storyboard in Resources */,
 				C4BBA3D51CDF13B30012AE66 /* LaunchImage-700-568h@2x.png in Resources */,
 				C4BBA40E1CDF2B9D0012AE66 /* JKLoginViewController.xib in Resources */,
 				C4BBA3D71CDF13B30012AE66 /* LaunchImage-800-667h@2x.png in Resources */,
 				C4FF3A011CDF32A300BCDF0E /* JKFriendTrendViewController.xib in Resources */,
 				C4BBA3D41CDF13B30012AE66 /* LaunchImage-568h@2x.png in Resources */,
 				C4BBA3D91CDF13B30012AE66 /* LaunchImage.png in Resources */,
+				C4FF3A0D1CDF486B00BCDF0E /* JKSquareCell.xib in Resources */,
 				C4BBA3611CDEE4B10012AE66 /* Assets.xcassets in Resources */,
 				C4BBA4001CDF262E0012AE66 /* JKFastLogin.xib in Resources */,
 				C4BBA3D61CDF13B30012AE66 /* LaunchImage-700@2x.png in Resources */,
@@ -748,12 +793,15 @@
 				C4BBA3FF1CDF262E0012AE66 /* JKFastLogin.m in Sources */,
 				C4BBA3B81CDEF8750012AE66 /* UIImage+Render.m in Sources */,
 				C4BBA40D1CDF2B9D0012AE66 /* JKLoginViewController.m in Sources */,
+				C4FF3A191CDF48E600BCDF0E /* JKWebViewController.m in Sources */,
+				C4FF3A141CDF48C800BCDF0E /* JKMeViewController.m in Sources */,
 				C4BBA3DE1CDF159B0012AE66 /* JKADItem.m in Sources */,
+				C4FF3A041CDF436E00BCDF0E /* JKTextField.m in Sources */,
 				C4BBA3BC1CDF06AF0012AE66 /* JKTabBar.m in Sources */,
+				C4FF3A0C1CDF486B00BCDF0E /* JKSquareCell.m in Sources */,
 				C4BBA4061CDF27690012AE66 /* UITextField+Placeholder.m in Sources */,
 				C4BBA3561CDEE4B10012AE66 /* main.m in Sources */,
 				C4BBA3E11CDF16F20012AE66 /* JKConstant.m in Sources */,
-				C4BBA3B51CDEF71E0012AE66 /* JKMeViewContoller.m in Sources */,
 				C4BBA3E51CDF1C410012AE66 /* JKSubTagCell.m in Sources */,
 				C4BBA3CA1CDF13650012AE66 /* JKADViewController.m in Sources */,
 				C4BBA3A91CDEF6BF0012AE66 /* JKEssenceViewController.m in Sources */,
@@ -762,7 +810,9 @@
 				C4BBA3F51CDF25640012AE66 /* JKLoginRegisterView.m in Sources */,
 				C4BBA3A31CDEF6420012AE66 /* JKTabBarController.m in Sources */,
 				C4BBA3AC1CDEF6CD0012AE66 /* JKNewViewContoller.m in Sources */,
+				C4FF3A1D1CDF4EBC00BCDF0E /* JKSettingViewController.m in Sources */,
 				C4BBA3C61CDF0F6D0012AE66 /* JKNavigationController.m in Sources */,
+				C4FF3A101CDF487B00BCDF0E /* JKSquareItem.m in Sources */,
 				C4BBA3BF1CDF06DB0012AE66 /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
