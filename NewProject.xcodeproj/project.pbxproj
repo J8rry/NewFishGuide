@@ -21,6 +21,10 @@
 		C4BBA3B21CDEF7040012AE66 /* JKFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3B11CDEF7040012AE66 /* JKFriendTrendViewController.m */; };
 		C4BBA3B51CDEF71E0012AE66 /* JKMeViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3B41CDEF71E0012AE66 /* JKMeViewContoller.m */; };
 		C4BBA3B81CDEF8750012AE66 /* UIImage+Render.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3B71CDEF8750012AE66 /* UIImage+Render.m */; };
+		C4BBA3BC1CDF06AF0012AE66 /* JKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3BA1CDF06AF0012AE66 /* JKTabBar.m */; };
+		C4BBA3BF1CDF06DB0012AE66 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3BE1CDF06DB0012AE66 /* UIView+Frame.m */; };
+		C4BBA3C31CDF0BB50012AE66 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3C21CDF0BB50012AE66 /* UIBarButtonItem+Item.m */; };
+		C4BBA3C61CDF0F6D0012AE66 /* JKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3C51CDF0F6D0012AE66 /* JKNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,15 @@
 		C4BBA3B41CDEF71E0012AE66 /* JKMeViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKMeViewContoller.m; sourceTree = "<group>"; };
 		C4BBA3B61CDEF8750012AE66 /* UIImage+Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Render.h"; sourceTree = "<group>"; };
 		C4BBA3B71CDEF8750012AE66 /* UIImage+Render.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Render.m"; sourceTree = "<group>"; };
+		C4BBA3BA1CDF06AF0012AE66 /* JKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTabBar.m; sourceTree = "<group>"; };
+		C4BBA3BB1CDF06AF0012AE66 /* JKTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTabBar.h; sourceTree = "<group>"; };
+		C4BBA3BD1CDF06DB0012AE66 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		C4BBA3BE1CDF06DB0012AE66 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		C4BBA3C01CDF06EC0012AE66 /* BuDeJie.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuDeJie.pch; sourceTree = "<group>"; };
+		C4BBA3C11CDF0BB50012AE66 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		C4BBA3C21CDF0BB50012AE66 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		C4BBA3C41CDF0F6D0012AE66 /* JKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNavigationController.h; sourceTree = "<group>"; };
+		C4BBA3C51CDF0F6D0012AE66 /* JKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +274,8 @@
 			children = (
 				C4BBA3A11CDEF6420012AE66 /* JKTabBarController.h */,
 				C4BBA3A21CDEF6420012AE66 /* JKTabBarController.m */,
+				C4BBA3C41CDF0F6D0012AE66 /* JKNavigationController.h */,
+				C4BBA3C51CDF0F6D0012AE66 /* JKNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -275,6 +290,8 @@
 		C4BBA3941CDEE7620012AE66 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C4BBA3BB1CDF06AF0012AE66 /* JKTabBar.h */,
+				C4BBA3BA1CDF06AF0012AE66 /* JKTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -381,6 +398,11 @@
 		C4BBA3B91CDEF87C0012AE66 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				C4BBA3C01CDF06EC0012AE66 /* BuDeJie.pch */,
+				C4BBA3C11CDF0BB50012AE66 /* UIBarButtonItem+Item.h */,
+				C4BBA3C21CDF0BB50012AE66 /* UIBarButtonItem+Item.m */,
+				C4BBA3BD1CDF06DB0012AE66 /* UIView+Frame.h */,
+				C4BBA3BE1CDF06DB0012AE66 /* UIView+Frame.m */,
 				C4BBA3B61CDEF8750012AE66 /* UIImage+Render.h */,
 				C4BBA3B71CDEF8750012AE66 /* UIImage+Render.m */,
 			);
@@ -521,7 +543,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4BBA3591CDEE4B10012AE66 /* AppDelegate.m in Sources */,
+				C4BBA3C31CDF0BB50012AE66 /* UIBarButtonItem+Item.m in Sources */,
 				C4BBA3B81CDEF8750012AE66 /* UIImage+Render.m in Sources */,
+				C4BBA3BC1CDF06AF0012AE66 /* JKTabBar.m in Sources */,
 				C4BBA3561CDEE4B10012AE66 /* main.m in Sources */,
 				C4BBA3B51CDEF71E0012AE66 /* JKMeViewContoller.m in Sources */,
 				C4BBA3A91CDEF6BF0012AE66 /* JKEssenceViewController.m in Sources */,
@@ -529,6 +553,8 @@
 				C4BBA3AF1CDEF6DD0012AE66 /* JKPublishViewController.m in Sources */,
 				C4BBA3A31CDEF6420012AE66 /* JKTabBarController.m in Sources */,
 				C4BBA3AC1CDEF6CD0012AE66 /* JKNewViewContoller.m in Sources */,
+				C4BBA3C61CDF0F6D0012AE66 /* JKNavigationController.m in Sources */,
+				C4BBA3BF1CDF06DB0012AE66 /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,7 +694,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = NewProject/BuDeJie.pch;
 				INFOPLIST_FILE = NewProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JKing.NewProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -680,7 +709,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = NewProject/BuDeJie.pch;
 				INFOPLIST_FILE = NewProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JKing.NewProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -754,6 +786,7 @@
 				C4BBA3801CDEE4B20012AE66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4BBA3811CDEE4B20012AE66 /* Build configuration list for PBXNativeTarget "NewProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -762,6 +795,7 @@
 				C4BBA3831CDEE4B20012AE66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4BBA3841CDEE4B20012AE66 /* Build configuration list for PBXNativeTarget "NewProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +804,7 @@
 				C4BBA3861CDEE4B20012AE66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

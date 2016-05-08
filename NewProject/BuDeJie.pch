@@ -1,0 +1,49 @@
+//
+//  BuDeJie.pch
+//  BuDeJie
+//
+//  Created by Jerry on 16/4/2.
+//  Copyright © 2016年 Jerry. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+
+/*** 如果希望某些内容能拷贝到任何源代码文件(OC\C\C++等), 那么就不要写在#ifdef __OBJC__和#endif之间 ***/
+
+#import "UIView+Frame.h"
+#import "UIBarButtonItem+Item.h"
+//#import "JKConstant.h"
+//#import "UIImageView+loadImage.h"
+//#import "UIImageView+Download.h"
+
+#define JKUIScreenW [UIScreen mainScreen].bounds.size.width
+#define JKUIScreenH [UIScreen mainScreen].bounds.size.height
+#define iPhone6P (JKUIScreenH == 736)
+#define iPhone6 (JKUIScreenH == 667)
+#define iPhone5 (JKUIScreenH == 568)
+#define iPhone4 (JKUIScreenH == 480)
+
+#define writePlistFileWithName(fileName) [responseObject writeToFile:[NSString stringWithFormat:@"/Users/Jerry/Desktop/BuDeJie/BuDeJie/%@.plist", @#fileName] atomically:YES];
+
+
+/***** 在#ifdef __OBJC__和#endif之间的内容, 只会拷贝到OC源代码文件中, 不会拷贝到其他语言的源代码文件中 *****/
+
+#define JKFunc JKLog(@"%s", __func__)
+
+/*** 日志 ***/
+#ifdef DEBUG
+#define JKLog(...) NSLog(__VA_ARGS__);
+#else
+#define JKLog(...)
+#endif
+
+/*** 颜色 ***/
+#define JKColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define JKColor(r, g, b) JKColorA((r), (g), (b), 255)
+#define JKRandomColor JKColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#define JKGlobeBgColor JKColor(215, 215, 215)
+
+#endif
+/***** 在#ifdef __OBJC__和#endif之间的内容, 只会拷贝到OC源代码文件中, 不会拷贝到其他语言的源代码文件中 *****/
+

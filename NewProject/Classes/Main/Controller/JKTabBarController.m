@@ -7,6 +7,7 @@
 //
 
 #import "JKTabBarController.h"
+#import "JKTabBar.h"
 
 #import "JKEssenceViewController.h"
 #import "JKNewViewContoller.h"
@@ -26,11 +27,16 @@
 + (void)load
 {
     // 设置所有item的选中时颜色
-    UITabBarItem *tarBarItem = [UITabBarItem appearance];
+    UITabBarItem *tarBarItem = [UITabBarItem appearanceWhenContainedIn:[self class], nil];
     
     NSMutableDictionary *attr = [NSMutableDictionary dictionary];
     attr[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
     [tarBarItem setTitleTextAttributes:attr forState:UIControlStateSelected];
+    
+    NSMutableDictionary *attrNor = [NSMutableDictionary dictionary];
+    attrNor[NSFontAttributeName] = [UIFont systemFontOfSize:13];
+    [tarBarItem setTitleTextAttributes:attrNor forState:UIControlStateNormal];
+
 }
 
 - (void)viewDidLoad
@@ -40,6 +46,17 @@
     [self setUpAllChildViewController]; // 设置所有的子控制器
     
     [self setUpAllTitleButton]; // 设置tabBar上对应的按钮内容
+    
+    [self setUpTabBar]; // 自定义tabBar
+   
+}
+
+- (void)setUpTabBar
+{
+    JKTabBar *tabBar = [[JKTabBar alloc] init];
+    
+    // 替换系统的tabBar KVC: 可以设置readonly属性
+    [self setValue:tabBar forKey:@"tabBar"];
 }
 
 - (void)setUpAllChildViewController
@@ -53,10 +70,6 @@
     JKNewViewContoller *newVC = [[JKNewViewContoller alloc] init];
     UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:newVC];
     [self addChildViewController:nav2];
-    
-    // 发布
-    JKPublishViewController *publishVC = [[JKPublishViewController alloc] init];
-    [self addChildViewController:publishVC];
     
     // 关注
     JKFriendTrendViewController *friendVC = [[JKFriendTrendViewController alloc] init];
@@ -82,21 +95,19 @@
     nav2.tabBarItem.image = [UIImage imageNamed:@"tabBar_new_icon"];
     nav2.tabBarItem.selectedImage = [UIImage imageNameWithOriginal:@"tabBar_new_click_icon"];
     
-    JKPublishViewController *publish = self.childViewControllers[2];
-    publish.tabBarItem.image = [UIImage imageNamed:@"tabBar_publish_icon"];
-    publish.tabBarItem.selectedImage = [UIImage imageNameWithOriginal:@"tabBar_publish_click_icon"];
-    
-    UINavigationController *nav3 = self.childViewControllers[3];
+    UINavigationController *nav3 = self.childViewControllers[2];
     nav3.tabBarItem.title = @"关注";
     nav3.tabBarItem.image = [UIImage imageNamed:@"tabBar_friendTrends_icon"];
     nav3.tabBarItem.selectedImage = [UIImage imageNameWithOriginal:@"tabBar_friendTrends_click_icon"];
     
-    UINavigationController *nav4 = self.childViewControllers[4];
+    UINavigationController *nav4 = self.childViewControllers[3];
     nav4.tabBarItem.title = @"我";
     nav4.tabBarItem.image = [UIImage imageNamed:@"tabBar_me_icon"];
     nav4.tabBarItem.selectedImage = [UIImage imageNameWithOriginal:@"tabBar_me_click_icon"];
     
     
 }
+
+
 
 @end
