@@ -7,6 +7,7 @@
 //
 
 #import "JKFriendTrendViewController.h"
+#import "JKLoginViewController.m"
 
 @implementation JKFriendTrendViewController
 
@@ -33,6 +34,21 @@
 {
     
 }
+
+- (IBAction)LoginClick {
+    
+    JKLoginViewController *loginVc = [[JKLoginViewController alloc] init];
+    
+    [self presentViewController:loginVc animated:YES completion:nil];
+}
+
+- (IBAction)RegisterClick {
+    JKLoginViewController *registerVc = [[JKLoginViewController alloc] init];
+    registerVc.isRegister = YES;
+    [self presentViewController:registerVc animated:YES completion:nil];
+}
+
+
 
 
 @end

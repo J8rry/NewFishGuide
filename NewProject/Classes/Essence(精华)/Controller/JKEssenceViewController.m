@@ -18,7 +18,7 @@
 {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor GrayColor];
+    self.view.backgroundColor = [UIColor grayColor];
     
     [self setUpNav]; // 设置导航条内容
 }
