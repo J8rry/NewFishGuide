@@ -48,6 +48,7 @@
 		C4BBA4061CDF27690012AE66 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA4051CDF27690012AE66 /* UITextField+Placeholder.m */; };
 		C4BBA40D1CDF2B9D0012AE66 /* JKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA40B1CDF2B9D0012AE66 /* JKLoginViewController.m */; };
 		C4BBA40E1CDF2B9D0012AE66 /* JKLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA40C1CDF2B9D0012AE66 /* JKLoginViewController.xib */; };
+		C4E0AB971CDF5453005D0BBE /* JKFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E0AB961CDF5453005D0BBE /* JKFileManager.m */; };
 		C4FF3A011CDF32A300BCDF0E /* JKFriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FF3A001CDF32A300BCDF0E /* JKFriendTrendViewController.xib */; };
 		C4FF3A041CDF436E00BCDF0E /* JKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF3A031CDF436E00BCDF0E /* JKTextField.m */; };
 		C4FF3A0C1CDF486B00BCDF0E /* JKSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF3A0A1CDF486B00BCDF0E /* JKSquareCell.m */; };
@@ -150,6 +151,8 @@
 		C4BBA40A1CDF2B9D0012AE66 /* JKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKLoginViewController.h; sourceTree = "<group>"; };
 		C4BBA40B1CDF2B9D0012AE66 /* JKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLoginViewController.m; sourceTree = "<group>"; };
 		C4BBA40C1CDF2B9D0012AE66 /* JKLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKLoginViewController.xib; sourceTree = "<group>"; };
+		C4E0AB951CDF5453005D0BBE /* JKFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKFileManager.h; sourceTree = "<group>"; };
+		C4E0AB961CDF5453005D0BBE /* JKFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKFileManager.m; sourceTree = "<group>"; };
 		C4FF3A001CDF32A300BCDF0E /* JKFriendTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKFriendTrendViewController.xib; sourceTree = "<group>"; };
 		C4FF3A021CDF436E00BCDF0E /* JKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTextField.h; sourceTree = "<group>"; };
 		C4FF3A031CDF436E00BCDF0E /* JKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTextField.m; sourceTree = "<group>"; };
@@ -278,6 +281,7 @@
 		C4BBA3881CDEE7620012AE66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C4E0AB981CDF55EC005D0BBE /* Tool(业务类) */,
 				C4FF3A081CDF482800BCDF0E /* Setting(设置) */,
 				C4BBA3CC1CDF136A0012AE66 /* AD */,
 				C4BBA3911CDEE7620012AE66 /* Main */,
@@ -567,6 +571,15 @@
 			name = LauchScreen;
 			sourceTree = "<group>";
 		};
+		C4E0AB981CDF55EC005D0BBE /* Tool(业务类) */ = {
+			isa = PBXGroup;
+			children = (
+				C4E0AB951CDF5453005D0BBE /* JKFileManager.h */,
+				C4E0AB961CDF5453005D0BBE /* JKFileManager.m */,
+			);
+			name = "Tool(业务类)";
+			sourceTree = "<group>";
+		};
 		C4FF3A081CDF482800BCDF0E /* Setting(设置) */ = {
 			isa = PBXGroup;
 			children = (
@@ -799,6 +812,7 @@
 				C4FF3A041CDF436E00BCDF0E /* JKTextField.m in Sources */,
 				C4BBA3BC1CDF06AF0012AE66 /* JKTabBar.m in Sources */,
 				C4FF3A0C1CDF486B00BCDF0E /* JKSquareCell.m in Sources */,
+				C4E0AB971CDF5453005D0BBE /* JKFileManager.m in Sources */,
 				C4BBA4061CDF27690012AE66 /* UITextField+Placeholder.m in Sources */,
 				C4BBA3561CDEE4B10012AE66 /* main.m in Sources */,
 				C4BBA3E11CDF16F20012AE66 /* JKConstant.m in Sources */,
@@ -957,7 +971,7 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = NewProject/BuDeJie.pch;
 				INFOPLIST_FILE = NewProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JKing.NewProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -973,7 +987,7 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = NewProject/BuDeJie.pch;
 				INFOPLIST_FILE = NewProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JKing.NewProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
