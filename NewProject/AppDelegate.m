@@ -21,9 +21,10 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    JKADViewController *adVC = [[JKADViewController alloc] init];
+//    JKADViewController *adVC = [[JKADViewController alloc] init];
+    JKTabBarController *tabVC = [[JKTabBarController alloc] init];
     
-    self.window.rootViewController = adVC;
+    self.window.rootViewController = tabVC;
     
     [self.window makeKeyAndVisible];
     
