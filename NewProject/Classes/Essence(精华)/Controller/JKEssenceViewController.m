@@ -149,6 +149,10 @@
 
 - (void)titlesButtonClick:(JKTitlesButton *)titlesButton
 {
+    if (self.preSelectedButton == titlesButton) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:titlesButtonDidReapeatClickNotification object:nil];
+    }
+    
     // 上一个点击的按钮 -> 暗灰色
     self.preSelectedButton.selected = NO;
     // 新点击的按钮 -> 红色
@@ -186,7 +190,7 @@
 }
 
 /**
- *  添加子控制器的view到scrollView当中
+ *  添加子控制器的view到scrollView当中: 利用懒加载 点击到了对应的标题 才加载view
  */
 - (void)addChildViewIntoScrollView:(NSInteger)index
 {

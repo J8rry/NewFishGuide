@@ -64,6 +64,7 @@ static NSInteger const cols = 4;
     _collectionView = collectionView;
     
     collectionView.backgroundColor = JKColor(215, 215, 215);
+    collectionView.scrollsToTop = NO;
     
     self.tableView.tableFooterView = collectionView;
     

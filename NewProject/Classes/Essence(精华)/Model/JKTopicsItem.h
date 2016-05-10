@@ -67,7 +67,7 @@ typedef NS_ENUM(NSInteger, JKTopicType){
 
 
 
-/** 为了开发方便, 创建的属性 */
+/* 额外增加的属性（为了方便开发） */
 /** 计算cell高度*/
 @property (nonatomic, assign) CGFloat cellHeight;
 /** 中间View的frame */

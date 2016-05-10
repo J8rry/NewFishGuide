@@ -16,7 +16,16 @@
 		C41583F71CE0B05200BF3E1C /* JKSeeBigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41583F51CE0B05200BF3E1C /* JKSeeBigViewController.m */; };
 		C41583F81CE0B05200BF3E1C /* JKSeeBigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41583F61CE0B05200BF3E1C /* JKSeeBigViewController.xib */; };
 		C41583FB1CE0B0D100BF3E1C /* JKTitlesButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C41583FA1CE0B0D100BF3E1C /* JKTitlesButton.m */; };
-		C41583FE1CE0B10700BF3E1C /* JKTopicsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C41583FD1CE0B10700BF3E1C /* JKTopicsItem.m */; };
+		C41584011CE1EDE300BF3E1C /* JKTopicsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C41584001CE1EDE300BF3E1C /* JKTopicsItem.m */; };
+		C41584051CE1EE6900BF3E1C /* JKTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C41584031CE1EE6900BF3E1C /* JKTopicCell.m */; };
+		C41584061CE1EE6900BF3E1C /* JKTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41584041CE1EE6900BF3E1C /* JKTopicCell.xib */; };
+		C415840A1CE1EEE800BF3E1C /* JKTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = C41584081CE1EEE800BF3E1C /* JKTopicPictureView.m */; };
+		C415840B1CE1EEE800BF3E1C /* JKTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41584091CE1EEE800BF3E1C /* JKTopicPictureView.xib */; };
+		C41584121CE1EF0700BF3E1C /* JKTopicVedioView.m in Sources */ = {isa = PBXBuildFile; fileRef = C415840D1CE1EF0700BF3E1C /* JKTopicVedioView.m */; };
+		C41584131CE1EF0700BF3E1C /* JKTopicVedioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C415840E1CE1EF0700BF3E1C /* JKTopicVedioView.xib */; };
+		C41584141CE1EF0700BF3E1C /* JKTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = C41584101CE1EF0700BF3E1C /* JKTopicVoiceView.m */; };
+		C41584151CE1EF0700BF3E1C /* JKTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41584111CE1EF0700BF3E1C /* JKTopicVoiceView.xib */; };
+		C415841A1CE1EF9E00BF3E1C /* UIImageView+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = C41584171CE1EF9E00BF3E1C /* UIImageView+Download.m */; };
 		C4BBA3561CDEE4B10012AE66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3551CDEE4B10012AE66 /* main.m */; };
 		C4BBA3591CDEE4B10012AE66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3581CDEE4B10012AE66 /* AppDelegate.m */; };
 		C4BBA35F1CDEE4B10012AE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA35D1CDEE4B10012AE66 /* Main.storyboard */; };
@@ -106,8 +115,22 @@
 		C41583F61CE0B05200BF3E1C /* JKSeeBigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKSeeBigViewController.xib; sourceTree = "<group>"; };
 		C41583F91CE0B0D100BF3E1C /* JKTitlesButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTitlesButton.h; sourceTree = "<group>"; };
 		C41583FA1CE0B0D100BF3E1C /* JKTitlesButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTitlesButton.m; sourceTree = "<group>"; };
-		C41583FC1CE0B10700BF3E1C /* JKTopicsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicsItem.h; sourceTree = "<group>"; };
-		C41583FD1CE0B10700BF3E1C /* JKTopicsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicsItem.m; sourceTree = "<group>"; };
+		C41583FF1CE1EDE300BF3E1C /* JKTopicsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicsItem.h; sourceTree = "<group>"; };
+		C41584001CE1EDE300BF3E1C /* JKTopicsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicsItem.m; sourceTree = "<group>"; };
+		C41584021CE1EE6900BF3E1C /* JKTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicCell.h; sourceTree = "<group>"; };
+		C41584031CE1EE6900BF3E1C /* JKTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicCell.m; sourceTree = "<group>"; };
+		C41584041CE1EE6900BF3E1C /* JKTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKTopicCell.xib; sourceTree = "<group>"; };
+		C41584071CE1EEE800BF3E1C /* JKTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicPictureView.h; sourceTree = "<group>"; };
+		C41584081CE1EEE800BF3E1C /* JKTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicPictureView.m; sourceTree = "<group>"; };
+		C41584091CE1EEE800BF3E1C /* JKTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKTopicPictureView.xib; sourceTree = "<group>"; };
+		C415840C1CE1EF0700BF3E1C /* JKTopicVedioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicVedioView.h; sourceTree = "<group>"; };
+		C415840D1CE1EF0700BF3E1C /* JKTopicVedioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicVedioView.m; sourceTree = "<group>"; };
+		C415840E1CE1EF0700BF3E1C /* JKTopicVedioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKTopicVedioView.xib; sourceTree = "<group>"; };
+		C415840F1CE1EF0700BF3E1C /* JKTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicVoiceView.h; sourceTree = "<group>"; };
+		C41584101CE1EF0700BF3E1C /* JKTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicVoiceView.m; sourceTree = "<group>"; };
+		C41584111CE1EF0700BF3E1C /* JKTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKTopicVoiceView.xib; sourceTree = "<group>"; };
+		C41584161CE1EF9E00BF3E1C /* UIImageView+Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Download.h"; sourceTree = "<group>"; };
+		C41584171CE1EF9E00BF3E1C /* UIImageView+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Download.m"; sourceTree = "<group>"; };
 		C4BBA3511CDEE4B10012AE66 /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BBA3551CDEE4B10012AE66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4BBA3571CDEE4B10012AE66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -356,6 +379,8 @@
 		C4BBA38B1CDEE7620012AE66 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C41583FF1CE1EDE300BF3E1C /* JKTopicsItem.h */,
+				C41584001CE1EDE300BF3E1C /* JKTopicsItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -363,10 +388,20 @@
 		C4BBA38C1CDEE7620012AE66 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C41584021CE1EE6900BF3E1C /* JKTopicCell.h */,
+				C41584031CE1EE6900BF3E1C /* JKTopicCell.m */,
+				C41584041CE1EE6900BF3E1C /* JKTopicCell.xib */,
+				C415840C1CE1EF0700BF3E1C /* JKTopicVedioView.h */,
+				C415840D1CE1EF0700BF3E1C /* JKTopicVedioView.m */,
+				C415840E1CE1EF0700BF3E1C /* JKTopicVedioView.xib */,
+				C41584071CE1EEE800BF3E1C /* JKTopicPictureView.h */,
+				C41584081CE1EEE800BF3E1C /* JKTopicPictureView.m */,
+				C41584091CE1EEE800BF3E1C /* JKTopicPictureView.xib */,
+				C415840F1CE1EF0700BF3E1C /* JKTopicVoiceView.h */,
+				C41584101CE1EF0700BF3E1C /* JKTopicVoiceView.m */,
+				C41584111CE1EF0700BF3E1C /* JKTopicVoiceView.xib */,
 				C41583F91CE0B0D100BF3E1C /* JKTitlesButton.h */,
 				C41583FA1CE0B0D100BF3E1C /* JKTitlesButton.m */,
-				C41583FC1CE0B10700BF3E1C /* JKTopicsItem.h */,
-				C41583FD1CE0B10700BF3E1C /* JKTopicsItem.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -584,6 +619,8 @@
 				C4BBA3B71CDEF8750012AE66 /* UIImage+Render.m */,
 				C4BBA3DF1CDF16F20012AE66 /* JKConstant.h */,
 				C4BBA3E01CDF16F20012AE66 /* JKConstant.m */,
+				C41584161CE1EF9E00BF3E1C /* UIImageView+Download.h */,
+				C41584171CE1EF9E00BF3E1C /* UIImageView+Download.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -750,9 +787,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C415840B1CE1EEE800BF3E1C /* JKTopicPictureView.xib in Resources */,
 				C4BBA3CB1CDF13650012AE66 /* JKADViewController.xib in Resources */,
+				C41584151CE1EF0700BF3E1C /* JKTopicVoiceView.xib in Resources */,
 				C4BBA3D81CDF13B30012AE66 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				C4BBA3F61CDF25640012AE66 /* JKLoginRegisterView.xib in Resources */,
+				C41584061CE1EE6900BF3E1C /* JKTopicCell.xib in Resources */,
 				C4BBA3641CDEE4B10012AE66 /* LaunchScreen.storyboard in Resources */,
 				C4BBA3DA1CDF13B30012AE66 /* LaunchImage@2x.png in Resources */,
 				C4FF3A1A1CDF48E600BCDF0E /* JKWebViewController.xib in Resources */,
@@ -766,6 +806,7 @@
 				C4BBA3D41CDF13B30012AE66 /* LaunchImage-568h@2x.png in Resources */,
 				C4BBA3D91CDF13B30012AE66 /* LaunchImage.png in Resources */,
 				C4FF3A0D1CDF486B00BCDF0E /* JKSquareCell.xib in Resources */,
+				C41584131CE1EF0700BF3E1C /* JKTopicVedioView.xib in Resources */,
 				C4BBA3611CDEE4B10012AE66 /* Assets.xcassets in Resources */,
 				C4BBA4001CDF262E0012AE66 /* JKFastLogin.xib in Resources */,
 				C4BBA3D61CDF13B30012AE66 /* LaunchImage-700@2x.png in Resources */,
@@ -844,6 +885,7 @@
 			files = (
 				C4BBA3591CDEE4B10012AE66 /* AppDelegate.m in Sources */,
 				C4BBA4031CDF26390012AE66 /* JKFastLoginBtn.m in Sources */,
+				C41584141CE1EF0700BF3E1C /* JKTopicVoiceView.m in Sources */,
 				C4BBA3EC1CDF1C550012AE66 /* JKSubTagViewController.m in Sources */,
 				C4BBA3E91CDF1C490012AE66 /* JKSubTagItem.m in Sources */,
 				C4BBA3C31CDF0BB50012AE66 /* UIBarButtonItem+Item.m in Sources */,
@@ -855,6 +897,7 @@
 				C4FF3A141CDF48C800BCDF0E /* JKMeViewController.m in Sources */,
 				C4BBA3DE1CDF159B0012AE66 /* JKADItem.m in Sources */,
 				C4FF3A041CDF436E00BCDF0E /* JKTextField.m in Sources */,
+				C415840A1CE1EEE800BF3E1C /* JKTopicPictureView.m in Sources */,
 				C4BBA3BC1CDF06AF0012AE66 /* JKTabBar.m in Sources */,
 				C41583FB1CE0B0D100BF3E1C /* JKTitlesButton.m in Sources */,
 				C41583EF1CE0AB2A00BF3E1C /* JKVedioViewController.m in Sources */,
@@ -866,19 +909,22 @@
 				C4BBA3E51CDF1C410012AE66 /* JKSubTagCell.m in Sources */,
 				C4BBA3CA1CDF13650012AE66 /* JKADViewController.m in Sources */,
 				C4BBA3A91CDEF6BF0012AE66 /* JKEssenceViewController.m in Sources */,
+				C41584011CE1EDE300BF3E1C /* JKTopicsItem.m in Sources */,
 				C41583DB1CE0AAD900BF3E1C /* JKPictureViewController.m in Sources */,
 				C4BBA3B21CDEF7040012AE66 /* JKFriendTrendViewController.m in Sources */,
 				C4BBA3AF1CDEF6DD0012AE66 /* JKPublishViewController.m in Sources */,
 				C4BBA3F51CDF25640012AE66 /* JKLoginRegisterView.m in Sources */,
 				C41583F71CE0B05200BF3E1C /* JKSeeBigViewController.m in Sources */,
-				C41583FE1CE0B10700BF3E1C /* JKTopicsItem.m in Sources */,
 				C41583F01CE0AB2A00BF3E1C /* JKVoiceViewController.m in Sources */,
 				C4BBA3A31CDEF6420012AE66 /* JKTabBarController.m in Sources */,
 				C4BBA3AC1CDEF6CD0012AE66 /* JKNewViewContoller.m in Sources */,
 				C4FF3A1D1CDF4EBC00BCDF0E /* JKSettingViewController.m in Sources */,
 				C4BBA3C61CDF0F6D0012AE66 /* JKNavigationController.m in Sources */,
+				C41584051CE1EE6900BF3E1C /* JKTopicCell.m in Sources */,
 				C41583D81CE0AACD00BF3E1C /* JKAllViewController.m in Sources */,
+				C41584121CE1EF0700BF3E1C /* JKTopicVedioView.m in Sources */,
 				C4FF3A101CDF487B00BCDF0E /* JKSquareItem.m in Sources */,
+				C415841A1CE1EF9E00BF3E1C /* UIImageView+Download.m in Sources */,
 				C4BBA3BF1CDF06DB0012AE66 /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

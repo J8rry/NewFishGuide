@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "JKTabBarController.h"
 #import "JKADViewController.h"
+#import <AFNetworking.h>
 
 @interface AppDelegate ()
 
@@ -27,6 +28,8 @@
     self.window.rootViewController = tabVC;
     
     [self.window makeKeyAndVisible];
+    
+    [[AFNetworkReachabilityManager manager] startMonitoring];
     
     return YES;
 }

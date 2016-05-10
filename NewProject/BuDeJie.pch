@@ -14,8 +14,7 @@
 #import "UIView+Frame.h"
 #import "UIBarButtonItem+Item.h"
 #import "JKConstant.h"
-//#import "UIImageView+loadImage.h"
-//#import "UIImageView+Download.h"
+#import "UIImageView+Download.h"
 
 #define JKUIScreenW [UIScreen mainScreen].bounds.size.width
 #define JKUIScreenH [UIScreen mainScreen].bounds.size.height
