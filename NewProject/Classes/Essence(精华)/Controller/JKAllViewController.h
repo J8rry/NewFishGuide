@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JKTopicViewController.h"
 
-@interface JKAllViewController : UITableViewController
+@interface JKAllViewController : JKTopicViewController
+
 
 @end

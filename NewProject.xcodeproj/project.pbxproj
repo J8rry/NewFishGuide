@@ -26,6 +26,7 @@
 		C41584141CE1EF0700BF3E1C /* JKTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = C41584101CE1EF0700BF3E1C /* JKTopicVoiceView.m */; };
 		C41584151CE1EF0700BF3E1C /* JKTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41584111CE1EF0700BF3E1C /* JKTopicVoiceView.xib */; };
 		C415841A1CE1EF9E00BF3E1C /* UIImageView+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = C41584171CE1EF9E00BF3E1C /* UIImageView+Download.m */; };
+		C41584231CE2C64700BF3E1C /* JKTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41584221CE2C64700BF3E1C /* JKTopicViewController.m */; };
 		C4BBA3561CDEE4B10012AE66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3551CDEE4B10012AE66 /* main.m */; };
 		C4BBA3591CDEE4B10012AE66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3581CDEE4B10012AE66 /* AppDelegate.m */; };
 		C4BBA35F1CDEE4B10012AE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA35D1CDEE4B10012AE66 /* Main.storyboard */; };
@@ -131,6 +132,8 @@
 		C41584111CE1EF0700BF3E1C /* JKTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKTopicVoiceView.xib; sourceTree = "<group>"; };
 		C41584161CE1EF9E00BF3E1C /* UIImageView+Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Download.h"; sourceTree = "<group>"; };
 		C41584171CE1EF9E00BF3E1C /* UIImageView+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Download.m"; sourceTree = "<group>"; };
+		C41584211CE2C64700BF3E1C /* JKTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicViewController.h; sourceTree = "<group>"; };
+		C41584221CE2C64700BF3E1C /* JKTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicViewController.m; sourceTree = "<group>"; };
 		C4BBA3511CDEE4B10012AE66 /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BBA3551CDEE4B10012AE66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4BBA3571CDEE4B10012AE66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -254,6 +257,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C41584241CE2C85E00BF3E1C /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				C41584211CE2C64700BF3E1C /* JKTopicViewController.h */,
+				C41584221CE2C64700BF3E1C /* JKTopicViewController.m */,
+				C41583D61CE0AACD00BF3E1C /* JKAllViewController.h */,
+				C41583D71CE0AACD00BF3E1C /* JKAllViewController.m */,
+				C41583EB1CE0AB2A00BF3E1C /* JKVedioViewController.h */,
+				C41583EC1CE0AB2A00BF3E1C /* JKVedioViewController.m */,
+				C41583D91CE0AAD900BF3E1C /* JKPictureViewController.h */,
+				C41583DA1CE0AAD900BF3E1C /* JKPictureViewController.m */,
+				C41583ED1CE0AB2A00BF3E1C /* JKVoiceViewController.h */,
+				C41583EE1CE0AB2A00BF3E1C /* JKVoiceViewController.m */,
+				C41583F11CE0AB3F00BF3E1C /* JKWordViewController.h */,
+				C41583F21CE0AB3F00BF3E1C /* JKWordViewController.m */,
+			);
+			name = Topic;
+			sourceTree = "<group>";
+		};
 		C4BBA3481CDEE4B10012AE66 = {
 			isa = PBXGroup;
 			children = (
@@ -357,18 +379,9 @@
 		C4BBA38A1CDEE7620012AE66 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C41584241CE2C85E00BF3E1C /* Topic */,
 				C4BBA3A71CDEF6BF0012AE66 /* JKEssenceViewController.h */,
 				C4BBA3A81CDEF6BF0012AE66 /* JKEssenceViewController.m */,
-				C41583D61CE0AACD00BF3E1C /* JKAllViewController.h */,
-				C41583D71CE0AACD00BF3E1C /* JKAllViewController.m */,
-				C41583EB1CE0AB2A00BF3E1C /* JKVedioViewController.h */,
-				C41583EC1CE0AB2A00BF3E1C /* JKVedioViewController.m */,
-				C41583D91CE0AAD900BF3E1C /* JKPictureViewController.h */,
-				C41583DA1CE0AAD900BF3E1C /* JKPictureViewController.m */,
-				C41583ED1CE0AB2A00BF3E1C /* JKVoiceViewController.h */,
-				C41583EE1CE0AB2A00BF3E1C /* JKVoiceViewController.m */,
-				C41583F11CE0AB3F00BF3E1C /* JKWordViewController.h */,
-				C41583F21CE0AB3F00BF3E1C /* JKWordViewController.m */,
 				C41583F41CE0B05200BF3E1C /* JKSeeBigViewController.h */,
 				C41583F51CE0B05200BF3E1C /* JKSeeBigViewController.m */,
 				C41583F61CE0B05200BF3E1C /* JKSeeBigViewController.xib */,
@@ -892,6 +905,7 @@
 				C4BBA3FF1CDF262E0012AE66 /* JKFastLogin.m in Sources */,
 				C4BBA3B81CDEF8750012AE66 /* UIImage+Render.m in Sources */,
 				C4BBA40D1CDF2B9D0012AE66 /* JKLoginViewController.m in Sources */,
+				C41584231CE2C64700BF3E1C /* JKTopicViewController.m in Sources */,
 				C4FF3A191CDF48E600BCDF0E /* JKWebViewController.m in Sources */,
 				C41583F31CE0AB3F00BF3E1C /* JKWordViewController.m in Sources */,
 				C4FF3A141CDF48C800BCDF0E /* JKMeViewController.m in Sources */,
