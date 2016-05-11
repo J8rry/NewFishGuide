@@ -104,7 +104,6 @@
     } else {
         self.topCommentView.hidden = YES;
     }
-    
     switch (topics.type) {
         case JKTopicTypePicture: {
             self.topicPictureView.hidden = NO;

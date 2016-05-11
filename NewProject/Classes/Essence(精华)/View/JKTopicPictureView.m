@@ -46,7 +46,6 @@
 
     }];
  
-//    JKLog(@"pictuerTopic= %f", self.topics.height)
     self.gifImageView.hidden = !topics.is_gif;
     self.seeBigButton.hidden = !topics.isBigPicture;
     
@@ -54,6 +53,7 @@
 
 - (void)awakeFromNib
 {
+    self.autoresizingMask = UIViewAutoresizingNone;
     self.pictureImageView.userInteractionEnabled = YES;
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(seeBigPicture)];
     [self.pictureImageView addGestureRecognizer:tap];

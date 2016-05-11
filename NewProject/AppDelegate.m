@@ -29,7 +29,7 @@
     
     [self.window makeKeyAndVisible];
     
-    [[AFNetworkReachabilityManager manager] startMonitoring];
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
     
     return YES;
 }

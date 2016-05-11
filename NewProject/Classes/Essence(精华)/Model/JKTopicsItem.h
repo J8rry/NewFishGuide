@@ -50,17 +50,17 @@ typedef NS_ENUM(NSInteger, JKTopicType){
 /** 是否是gif图片 */
 @property (nonatomic, assign) BOOL is_gif;
 /** 小图片 */
-@property (nonatomic, strong) NSString *image0;
+@property (nonatomic, copy) NSString *image0;
 /** 大图片 */
-@property (nonatomic, strong) NSString *image1;
+@property (nonatomic, copy) NSString *image1;
 /** 中图片 */
-@property (nonatomic, strong) NSString *image2;
+@property (nonatomic, copy) NSString *image2;
 /** 播放数量 */
-@property (nonatomic, strong) NSString *playcount;
+@property (nonatomic, assign) NSInteger playcount;
 /** 声音的文件长度 */
-@property (nonatomic, strong) NSString *voicetime;
+@property (nonatomic, assign) NSInteger voicetime;
 /** 视频的文件长度 */
-@property (nonatomic, strong) NSString *videotime;
+@property (nonatomic, assign) NSInteger videotime;
 
 
 

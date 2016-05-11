@@ -119,21 +119,9 @@ NSString * const AssetCollectionIndentifier = @"百思不得姐";
                     
                 case PHAuthorizationStatusDenied:
                     
-                    if (oldStatus == PHAuthorizationStatusDenied) return;
+                    if (oldStatus == PHAuthorizationStatusDenied)
                     JKLog(@"允许访问已被禁用, 请打开[设置-隐私-照片]")
-                    
-//                    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"请点击设置,将相片访问设置为允许" preferredStyle:UIAlertControllerStyleAlert];
-//                    
-//                    UIAlertAction *action = [UIAlertAction actionWithTitle:@"设置" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-//
-//                    NSURL *url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
-//                        if ([[UIApplication sharedApplication]canOpenURL:url]) {
-//                            [[UIApplication sharedApplication]openURL:url];
-//                        }
-//                    }];
-//                    [alert addAction:action];
-//                    
-//                    [self presentViewController:alert animated:YES completion:nil];
+                    [self setUpAleart];
             
                     break;
                     
@@ -146,6 +134,22 @@ NSString * const AssetCollectionIndentifier = @"百思不得姐";
             }
         });
     }];
+}
+
+- (void)setUpAleart
+{
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"请点击设置,将相片访问设置为允许" preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *action = [UIAlertAction actionWithTitle:@"设置" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSURL *url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
+        if ([[UIApplication sharedApplication]canOpenURL:url]) {
+            [[UIApplication sharedApplication]openURL:url];
+        }
+    }];
+    
+    [alert addAction:action];
+    
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 /**
@@ -196,11 +200,11 @@ NSString * const AssetCollectionIndentifier = @"百思不得姐";
 - (void)saveImageToAlbum
 {
     // 3. 将图片保存到自定的相簿里
-    PHFetchResult<PHAsset *> *assets = self.createAssets;
+    PHFetchResult<PHAsset *> *creatAssets = self.createAssets;
     
     PHAssetCollection *assetsCollection = self.creatAssetCollection;
     
-    if (assets == nil || assetsCollection == nil) {
+    if (creatAssets == nil || assetsCollection == nil) {
         [SVProgressHUD showErrorWithStatus:@"保存失败"];
         return;
     }
@@ -208,7 +212,7 @@ NSString * const AssetCollectionIndentifier = @"百思不得姐";
     NSError *error = nil;
     [[PHPhotoLibrary sharedPhotoLibrary]performChangesAndWait:^{
         PHAssetCollectionChangeRequest *request = [PHAssetCollectionChangeRequest changeRequestForAssetCollection:assetsCollection];
-        [request insertAssets:assets atIndexes:[NSIndexSet indexSetWithIndex:0]];
+        [request insertAssets:creatAssets atIndexes:[NSIndexSet indexSetWithIndex:0]];
     } error:&error];
     
     if (error == nil) {

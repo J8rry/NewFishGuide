@@ -151,7 +151,6 @@ static NSString * const topicCell = @"topicCell";
     parameters[@"type"] = @(self.type);
     
     [self.manager GET:JKRequestURL parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        
         self.maxtime = responseObject[@"info"][@"maxtime"];
         // 字典数组 -> 转模型数组
         self.topics = [JKTopicsItem mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];

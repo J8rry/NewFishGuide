@@ -24,23 +24,27 @@
 
 - (void)awakeFromNib
 {
+    self.autoresizingMask = UIViewAutoresizingNone;
     self.vedioImageView.userInteractionEnabled = YES;
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(seeBigPicture)];
     [self.vedioImageView addGestureRecognizer:tap];
 }
 
 
--(void)setTopic:(JKTopicsItem *)topics
+-(void)setTopics:(JKTopicsItem *)topics
 {
-    [self.vedioImageView jk_setImageWithOriginalImageURL:topics.image1 thumbnailImageURL:topics.image0];
+    _topics = topics;
     
-    if ([topics.playcount integerValue] > 10000) {
-        self.playCountLabel.text = [NSString stringWithFormat:@"%.1f万播放", [topics.playcount integerValue] / 10000.0];
+    [self.vedioImageView jk_setImageWithOriginalImageURL:topics.image1 thumbnailImageURL:topics.image0];
+//    [self.vedioImageView sd_setImageWithURL:[NSURL URLWithString:topics.image1] placeholderImage:nil];
+    
+    if (topics.playcount > 10000) {
+        self.playCountLabel.text = [NSString stringWithFormat:@"%.1f万播放", topics.playcount / 10000.0];
     } else {
-        self.playCountLabel.text = [NSString stringWithFormat:@"%@播放", topics.playcount];
+        self.playCountLabel.text = [NSString stringWithFormat:@"%zd播放", topics.playcount];
     }
     
-    self.vedioTimeLabel.text = [NSString stringWithFormat:@"%02zd:%02zd", topics.voicetime.intValue / 60, topics.voicetime.intValue % 60];
+    self.vedioTimeLabel.text = [NSString stringWithFormat:@"%02zd:%02zd", topics.voicetime / 60, topics.voicetime % 60];
 }
 
 - (void)seeBigPicture
