@@ -7,6 +7,7 @@ pod ‘AFNetworking’
 pod ‘MJExtension’
 pod ’SDWebImage’
 pod ‘SVProgressHUD’
+pod ‘MJRefresh’
 
 target 'NewProject' do
 

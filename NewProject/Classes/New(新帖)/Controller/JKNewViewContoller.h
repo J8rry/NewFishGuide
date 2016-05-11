@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JKEssenceViewController.h"
 
-@interface JKNewViewContoller : UIViewController
+@interface JKNewViewContoller : JKEssenceViewController
 
 @end

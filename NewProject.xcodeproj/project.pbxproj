@@ -27,6 +27,8 @@
 		C41584151CE1EF0700BF3E1C /* JKTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41584111CE1EF0700BF3E1C /* JKTopicVoiceView.xib */; };
 		C415841A1CE1EF9E00BF3E1C /* UIImageView+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = C41584171CE1EF9E00BF3E1C /* UIImageView+Download.m */; };
 		C41584231CE2C64700BF3E1C /* JKTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41584221CE2C64700BF3E1C /* JKTopicViewController.m */; };
+		C41584271CE2D25A00BF3E1C /* JKRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C41584261CE2D25A00BF3E1C /* JKRefreshHeader.m */; };
+		C415842A1CE2D52F00BF3E1C /* JKRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C41584291CE2D52F00BF3E1C /* JKRefreshFooter.m */; };
 		C4BBA3561CDEE4B10012AE66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3551CDEE4B10012AE66 /* main.m */; };
 		C4BBA3591CDEE4B10012AE66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBA3581CDEE4B10012AE66 /* AppDelegate.m */; };
 		C4BBA35F1CDEE4B10012AE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BBA35D1CDEE4B10012AE66 /* Main.storyboard */; };
@@ -134,6 +136,10 @@
 		C41584171CE1EF9E00BF3E1C /* UIImageView+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Download.m"; sourceTree = "<group>"; };
 		C41584211CE2C64700BF3E1C /* JKTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTopicViewController.h; sourceTree = "<group>"; };
 		C41584221CE2C64700BF3E1C /* JKTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTopicViewController.m; sourceTree = "<group>"; };
+		C41584251CE2D25A00BF3E1C /* JKRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRefreshHeader.h; sourceTree = "<group>"; };
+		C41584261CE2D25A00BF3E1C /* JKRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRefreshHeader.m; sourceTree = "<group>"; };
+		C41584281CE2D52F00BF3E1C /* JKRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRefreshFooter.h; sourceTree = "<group>"; };
+		C41584291CE2D52F00BF3E1C /* JKRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRefreshFooter.m; sourceTree = "<group>"; };
 		C4BBA3511CDEE4B10012AE66 /* NewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BBA3551CDEE4B10012AE66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4BBA3571CDEE4B10012AE66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -499,6 +505,10 @@
 			children = (
 				C4BBA3BB1CDF06AF0012AE66 /* JKTabBar.h */,
 				C4BBA3BA1CDF06AF0012AE66 /* JKTabBar.m */,
+				C41584251CE2D25A00BF3E1C /* JKRefreshHeader.h */,
+				C41584261CE2D25A00BF3E1C /* JKRefreshHeader.m */,
+				C41584281CE2D52F00BF3E1C /* JKRefreshFooter.h */,
+				C41584291CE2D52F00BF3E1C /* JKRefreshFooter.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -933,6 +943,8 @@
 				C4BBA3A31CDEF6420012AE66 /* JKTabBarController.m in Sources */,
 				C4BBA3AC1CDEF6CD0012AE66 /* JKNewViewContoller.m in Sources */,
 				C4FF3A1D1CDF4EBC00BCDF0E /* JKSettingViewController.m in Sources */,
+				C415842A1CE2D52F00BF3E1C /* JKRefreshFooter.m in Sources */,
+				C41584271CE2D25A00BF3E1C /* JKRefreshHeader.m in Sources */,
 				C4BBA3C61CDF0F6D0012AE66 /* JKNavigationController.m in Sources */,
 				C41584051CE1EE6900BF3E1C /* JKTopicCell.m in Sources */,
 				C41583D81CE0AACD00BF3E1C /* JKAllViewController.m in Sources */,
